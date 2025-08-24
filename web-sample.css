@@ -1,0 +1,61 @@
+* {
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://img.freepik.com/free-photo/abstract-blur-coffee-shop-cafe-interior_74190-6342.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .form-container {
+        border-radius: 30px;
+        width: 35%;
+        height: 80%;
+        background: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(20px);
+    }
+
+    h1 {
+        letter-spacing: 10px;
+        text-align: center;
+        margin: 35px 150px;
+        padding: 0 0 18px 0;
+        font-size: 40px;
+        border-bottom: 8px solid rgb(144, 0, 120);
+    }
+
+    label {
+        font-size: 25px;
+    }
+
+    section {
+        display: flex;
+        margin: 100px 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    input[type=text],
+    input[type=password],
+    input[type=number] {
+        margin: 15px 0 70px 0;
+        padding: 20px 10px 20px 10px;
+        height: 35px;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    button[type=submit] {
+        width: 20%;
+        padding: 10px 5px;
+        font-size: 20px;
+    }
